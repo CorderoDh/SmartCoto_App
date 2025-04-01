@@ -13,6 +13,19 @@
 		554972892D9C5E0C0080E062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554972872D9C5E0C0080E062 /* Main.storyboard */; };
 		5549728B2D9C5E0D0080E062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5549728A2D9C5E0D0080E062 /* Assets.xcassets */; };
 		5549728E2D9C5E0D0080E062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5549728C2D9C5E0D0080E062 /* LaunchScreen.storyboard */; };
+		554972992D9C61440080E062 /* SCLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554972982D9C61440080E062 /* SCLoginView.swift */; };
+		5549729C2D9C61B50080E062 /* SCHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5549729B2D9C61B50080E062 /* SCHomeView.swift */; };
+		5549729F2D9C622B0080E062 /* SCViewSelectedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5549729E2D9C622B0080E062 /* SCViewSelectedDate.swift */; };
+		554972A12D9C62370080E062 /* SCViewAcces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554972A02D9C62370080E062 /* SCViewAcces.swift */; };
+		554972A32D9C62450080E062 /* SCQuickActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554972A22D9C62450080E062 /* SCQuickActions.swift */; };
+		554972A52D9C624E0080E062 /* SCViewMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554972A42D9C624E0080E062 /* SCViewMetrics.swift */; };
+		554972A72D9C62580080E062 /* SCViewRecentActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554972A62D9C62580080E062 /* SCViewRecentActivity.swift */; };
+		554972A92D9C62620080E062 /* SCViewUsersInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554972A82D9C62620080E062 /* SCViewUsersInfo.swift */; };
+		554972AB2D9C626B0080E062 /* SCViewUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554972AA2D9C626B0080E062 /* SCViewUsers.swift */; };
+		554972AD2D9C62760080E062 /* SCViewTransactionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554972AC2D9C62760080E062 /* SCViewTransactionsInfo.swift */; };
+		554972AF2D9C62840080E062 /* SCViewTransactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554972AE2D9C62840080E062 /* SCViewTransactions.swift */; };
+		554972B22D9C62E90080E062 /* SCModelOfAcces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554972B12D9C62E90080E062 /* SCModelOfAcces.swift */; };
+		554972B42D9C62F30080E062 /* SCStructOfAcces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554972B32D9C62F30080E062 /* SCStructOfAcces.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,19 @@
 		5549728A2D9C5E0D0080E062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5549728D2D9C5E0D0080E062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5549728F2D9C5E0D0080E062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		554972982D9C61440080E062 /* SCLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCLoginView.swift; sourceTree = "<group>"; };
+		5549729B2D9C61B50080E062 /* SCHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCHomeView.swift; sourceTree = "<group>"; };
+		5549729E2D9C622B0080E062 /* SCViewSelectedDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCViewSelectedDate.swift; sourceTree = "<group>"; };
+		554972A02D9C62370080E062 /* SCViewAcces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCViewAcces.swift; sourceTree = "<group>"; };
+		554972A22D9C62450080E062 /* SCQuickActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCQuickActions.swift; sourceTree = "<group>"; };
+		554972A42D9C624E0080E062 /* SCViewMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCViewMetrics.swift; sourceTree = "<group>"; };
+		554972A62D9C62580080E062 /* SCViewRecentActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCViewRecentActivity.swift; sourceTree = "<group>"; };
+		554972A82D9C62620080E062 /* SCViewUsersInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCViewUsersInfo.swift; sourceTree = "<group>"; };
+		554972AA2D9C626B0080E062 /* SCViewUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCViewUsers.swift; sourceTree = "<group>"; };
+		554972AC2D9C62760080E062 /* SCViewTransactionsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCViewTransactionsInfo.swift; sourceTree = "<group>"; };
+		554972AE2D9C62840080E062 /* SCViewTransactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCViewTransactions.swift; sourceTree = "<group>"; };
+		554972B12D9C62E90080E062 /* SCModelOfAcces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCModelOfAcces.swift; sourceTree = "<group>"; };
+		554972B32D9C62F30080E062 /* SCStructOfAcces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCStructOfAcces.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +85,57 @@
 				554972812D9C5E0C0080E062 /* AppDelegate.swift */,
 				554972832D9C5E0C0080E062 /* SceneDelegate.swift */,
 				554972852D9C5E0C0080E062 /* ViewController.swift */,
+				554972972D9C61160080E062 /* SCLogin */,
+				5549729A2D9C619C0080E062 /* SCHome */,
 				554972872D9C5E0C0080E062 /* Main.storyboard */,
 				5549728A2D9C5E0D0080E062 /* Assets.xcassets */,
 				5549728C2D9C5E0D0080E062 /* LaunchScreen.storyboard */,
 				5549728F2D9C5E0D0080E062 /* Info.plist */,
 			);
 			path = SmartCoto_App;
+			sourceTree = "<group>";
+		};
+		554972972D9C61160080E062 /* SCLogin */ = {
+			isa = PBXGroup;
+			children = (
+				554972982D9C61440080E062 /* SCLoginView.swift */,
+			);
+			path = SCLogin;
+			sourceTree = "<group>";
+		};
+		5549729A2D9C619C0080E062 /* SCHome */ = {
+			isa = PBXGroup;
+			children = (
+				5549729B2D9C61B50080E062 /* SCHomeView.swift */,
+				5549729D2D9C61E80080E062 /* SCViewsOfHome */,
+				554972B02D9C62A80080E062 /* SCModelsOfInformation */,
+			);
+			path = SCHome;
+			sourceTree = "<group>";
+		};
+		5549729D2D9C61E80080E062 /* SCViewsOfHome */ = {
+			isa = PBXGroup;
+			children = (
+				5549729E2D9C622B0080E062 /* SCViewSelectedDate.swift */,
+				554972A02D9C62370080E062 /* SCViewAcces.swift */,
+				554972A22D9C62450080E062 /* SCQuickActions.swift */,
+				554972A42D9C624E0080E062 /* SCViewMetrics.swift */,
+				554972A62D9C62580080E062 /* SCViewRecentActivity.swift */,
+				554972A82D9C62620080E062 /* SCViewUsersInfo.swift */,
+				554972AA2D9C626B0080E062 /* SCViewUsers.swift */,
+				554972AC2D9C62760080E062 /* SCViewTransactionsInfo.swift */,
+				554972AE2D9C62840080E062 /* SCViewTransactions.swift */,
+			);
+			path = SCViewsOfHome;
+			sourceTree = "<group>";
+		};
+		554972B02D9C62A80080E062 /* SCModelsOfInformation */ = {
+			isa = PBXGroup;
+			children = (
+				554972B12D9C62E90080E062 /* SCModelOfAcces.swift */,
+				554972B32D9C62F30080E062 /* SCStructOfAcces.swift */,
+			);
+			path = SCModelsOfInformation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +210,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				554972862D9C5E0C0080E062 /* ViewController.swift in Sources */,
+				554972A12D9C62370080E062 /* SCViewAcces.swift in Sources */,
+				554972A72D9C62580080E062 /* SCViewRecentActivity.swift in Sources */,
+				554972AB2D9C626B0080E062 /* SCViewUsers.swift in Sources */,
+				5549729C2D9C61B50080E062 /* SCHomeView.swift in Sources */,
+				554972A32D9C62450080E062 /* SCQuickActions.swift in Sources */,
 				554972822D9C5E0C0080E062 /* AppDelegate.swift in Sources */,
+				554972B22D9C62E90080E062 /* SCModelOfAcces.swift in Sources */,
+				554972A52D9C624E0080E062 /* SCViewMetrics.swift in Sources */,
+				554972992D9C61440080E062 /* SCLoginView.swift in Sources */,
+				554972AF2D9C62840080E062 /* SCViewTransactions.swift in Sources */,
 				554972842D9C5E0C0080E062 /* SceneDelegate.swift in Sources */,
+				554972A92D9C62620080E062 /* SCViewUsersInfo.swift in Sources */,
+				5549729F2D9C622B0080E062 /* SCViewSelectedDate.swift in Sources */,
+				554972AD2D9C62760080E062 /* SCViewTransactionsInfo.swift in Sources */,
+				554972B42D9C62F30080E062 /* SCStructOfAcces.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
