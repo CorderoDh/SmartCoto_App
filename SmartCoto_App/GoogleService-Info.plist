@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBrXpgSY-1amTGCeeWGrm_UlrJltkt7Uso</string>
+	<key>GCM_SENDER_ID</key>
+	<string>513277199022</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Swift-inicio.SmartCoto-App</string>
+	<key>PROJECT_ID</key>
+	<string>smartcoto-2a70e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>smartcoto-2a70e.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:513277199022:ios:f7a387c230ab4c02f4a33f</string>
+</dict>
+</plist>

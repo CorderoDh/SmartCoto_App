@@ -26,6 +26,7 @@
 		554972AF2D9C62840080E062 /* SCViewTransactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554972AE2D9C62840080E062 /* SCViewTransactions.swift */; };
 		554972B22D9C62E90080E062 /* SCModelOfAcces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554972B12D9C62E90080E062 /* SCModelOfAcces.swift */; };
 		554972B42D9C62F30080E062 /* SCStructOfAcces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554972B32D9C62F30080E062 /* SCStructOfAcces.swift */; };
+		554972B62D9DAF3B0080E062 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 554972B52D9DAF3B0080E062 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		554972AE2D9C62840080E062 /* SCViewTransactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCViewTransactions.swift; sourceTree = "<group>"; };
 		554972B12D9C62E90080E062 /* SCModelOfAcces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCModelOfAcces.swift; sourceTree = "<group>"; };
 		554972B32D9C62F30080E062 /* SCStructOfAcces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCStructOfAcces.swift; sourceTree = "<group>"; };
+		554972B52D9DAF3B0080E062 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				5549728A2D9C5E0D0080E062 /* Assets.xcassets */,
 				5549728C2D9C5E0D0080E062 /* LaunchScreen.storyboard */,
 				5549728F2D9C5E0D0080E062 /* Info.plist */,
+				554972B52D9DAF3B0080E062 /* GoogleService-Info.plist */,
 			);
 			path = SmartCoto_App;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5549728E2D9C5E0D0080E062 /* LaunchScreen.storyboard in Resources */,
+				554972B62D9DAF3B0080E062 /* GoogleService-Info.plist in Resources */,
 				5549728B2D9C5E0D0080E062 /* Assets.xcassets in Resources */,
 				554972892D9C5E0C0080E062 /* Main.storyboard in Resources */,
 			);
