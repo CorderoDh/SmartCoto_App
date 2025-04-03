@@ -16,7 +16,7 @@ struct SCHome: View {
                 
                 //Bienvenida al usuario
                 
-                Text("Buenas noches, Erica")
+                Text("Buenas noches, Cordero")
                     .padding()
                     .frame(width: 350, height: 50, alignment: .leading)
                     .font(.title)
