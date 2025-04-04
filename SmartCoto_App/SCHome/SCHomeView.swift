@@ -102,10 +102,7 @@ struct SCHome: View {
                         }
                     }
                 }.padding()
-                    
             }
-            .safeAreaInset(edge: .top) { Color.clear.frame(height: 50) }
-                .ignoresSafeArea(edges: .bottom)
         }
     }
 }
