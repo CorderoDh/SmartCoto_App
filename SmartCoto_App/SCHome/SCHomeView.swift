@@ -102,10 +102,14 @@ struct SCHome: View {
                         }
                     }
                 }.padding()
+                    
             }
+            .safeAreaInset(edge: .top) { Color.clear.frame(height: 50) }
+                .ignoresSafeArea(edges: .bottom)
         }
     }
 }
+   
     
 struct SCLoginHome_Previews: PreviewProvider {
     static var previews: some View {
