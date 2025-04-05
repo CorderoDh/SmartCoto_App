@@ -8,18 +8,19 @@
 import SwiftUI
 
 struct SCViewAcces: View {
+    var model: AccessCardModel
     
     var body: some View {
         
         VStack(alignment: .leading, spacing: 1) {
-            Text("Total de accesos")
+            Text(model.title)
                 .padding(.top, 30)
                 .frame(width: 200, height: 50, alignment: .leading)
                 .font(.system(size: 20, weight: .bold))
-            Text("16")
+            Text(model.numberOfTag)
                 .font(.system(size: 40, weight: .bold))
                 .padding(.top)
-            Text("+10% de la semana pasada")
+            Text(model.porcent)
                 .frame(width: 300, height: 50, alignment: .leading)
             ZStack {
                 Image(systemName: "square.and.arrow.up")
