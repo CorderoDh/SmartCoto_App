@@ -21,7 +21,7 @@ struct SCHome: View {
                     .frame(width: 350, height: 50, alignment: .leading)
                     .font(.title)
                 
-                HStack(alignment: .firstTextBaseline, spacing: 100) {
+                HStack(alignment: .firstTextBaseline, spacing: 50) {
                     Text("Resumen")
                         .font(.system(size: 20))
                         .foregroundColor(.gray)
@@ -111,5 +111,6 @@ struct SCHome: View {
 struct SCLoginHome_Previews: PreviewProvider {
     static var previews: some View {
         SCHome()
+            .preferredColorScheme(.dark)
     }
 }
