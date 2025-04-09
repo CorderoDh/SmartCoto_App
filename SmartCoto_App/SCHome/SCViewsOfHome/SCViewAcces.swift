@@ -9,9 +9,9 @@ import SwiftUI
 
 struct SCViewAcces: View {
     @StateObject private var acces1 = Model(title: "Total de accesos", quantity: "16", porcent: "+10%", date: "de la semana pasada")
-    @StateObject private var acces2 = Model(title: "Paquetes en recepción", quantity: "32", porcent: "-5%", date: "de la semana pasada")
-    @StateObject private var acces3 = Model(title: "Invitados", quantity: "4", porcent: "+32%", date: "de la semana pasada")
-    @StateObject private var acces4 = Model(title: "Eventos", quantity: "3", porcent: "-3%", date: "de la semana pasada")
+//    @StateObject private var acces2 = Model(title: "Paquetes en recepción", quantity: "32", porcent: "-5%", date: "de la semana pasada")
+//    @StateObject private var acces3 = Model(title: "Invitados", quantity: "4", porcent: "+32%", date: "de la semana pasada")
+//    @StateObject private var acces4 = Model(title: "Eventos", quantity: "3", porcent: "-3%", date: "de la semana pasada")
     
     var body: some View {
         VStack(alignment: .leading, spacing: 1) {

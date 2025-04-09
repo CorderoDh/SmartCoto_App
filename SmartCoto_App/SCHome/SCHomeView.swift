@@ -29,7 +29,7 @@ struct SCHome: View {
                     
                     SCViewSelectedDate()
                 }
-                
+                //Usar una list con un foreach
                 VStack(alignment: .center, spacing: 15) {
                     SCViewAcces()
                     SCViewAcces()
