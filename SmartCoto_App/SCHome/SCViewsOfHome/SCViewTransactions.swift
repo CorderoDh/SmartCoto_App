@@ -19,8 +19,6 @@ struct SCViewTransactions: View {
             Spacer()
             
             VStack {
-                
-                // ---- SECCIÓN "HOY" ----
                 VStack {
                     Text("Hoy")
                         .padding()
