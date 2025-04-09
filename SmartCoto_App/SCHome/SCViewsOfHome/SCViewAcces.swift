@@ -26,10 +26,9 @@ struct SCViewAcces: View {
                 Text(acces1.porcent)
                 .frame(width: 50, height: 60, alignment: .center)
                 Text(acces1.date)
-                .frame(height: 10, alignment: .center)
+                    .frame(width: 160, height: 10, alignment: .center)
                 Image(systemName: "square.and.arrow.up")
-                    .padding()
-                    .frame(width: 80, height: 50, alignment: .trailing)
+                    .frame(width: 70, height: 50, alignment: .trailing)
             }
         }
         .padding(.horizontal, 20)
