@@ -104,7 +104,8 @@ struct SCHome: View {
                 }.padding()
             }
         }
-    }
+        .preferredColorScheme(.dark)
+    }  
 }
    
     

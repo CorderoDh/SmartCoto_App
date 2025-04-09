@@ -22,9 +22,9 @@ struct SCViewAcces: View {
             Text(acces1.quantity)
                 .font(.system(size: 40, weight: .bold))
                 .padding(.top)
-            HStack(spacing: -20) {
+            HStack {
                 Text(acces1.porcent)
-                .frame(width: 100, height: 80, alignment: .center)
+                .frame(width: 50, height: 60, alignment: .center)
                 Text(acces1.date)
                 .frame(height: 10, alignment: .center)
                 Image(systemName: "square.and.arrow.up")
