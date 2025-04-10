@@ -19,15 +19,15 @@ struct SCHome: View {
                 Text("Buenas noches, Cordero")
                     .padding()
                     .frame(width: 350, height: 50, alignment: .leading)
-                    .font(.title)
+                    .font(.system(size: 25))
                 
-                HStack(alignment: .firstTextBaseline, spacing: 100) {
+                HStack {
                     Text("Resumen")
-                        .font(.system(size: 20))
+                        .font(.system(size: 15))
                         .foregroundColor(.gray)
                         .frame(width: 150, height: 50, alignment: .leading)
                     
-                    SCViewSelectedDate()
+                        SCViewSelectedDate()
                 }
                 //Usar una list con un foreach
                 VStack(alignment: .center, spacing: 15) {
@@ -104,7 +104,7 @@ struct SCHome: View {
                 }.padding()
             }
         }
-        .preferredColorScheme(.dark)
+//        .preferredColorScheme(.dark)
     }  
 }
    

@@ -8,17 +8,55 @@
 import SwiftUI
 
 struct SCViewSelectedDate: View {
+    @State private var isDropdownVisible = false
+    @State private var selectedOption = "Fecha"
+    
+    let options = ["Hoy", "Ayer", "Esta semana", "Este mes", "Este año"]
+    
     var body: some View {
-
         VStack(alignment: .center, spacing: 10) {
-            Text("Fecha")
-        }.padding()
-        .overlay(
-            RoundedRectangle(cornerRadius: 15)
-                .stroke(Color.black, lineWidth: 2))
+            Button(action: {
+                withAnimation {
+                    isDropdownVisible.toggle()
+                }
+            }) {
+                HStack {
+                    Text(selectedOption)
+                        .font(.system(size: 12))
+                    Spacer()
+                    Image(systemName: isDropdownVisible ? "chevron.up" : "chevron.down")
+                        .foregroundColor(.gray)
+                }
+                .frame(width: 100, height: 1, alignment: .leading)
+            }
+            
+            if isDropdownVisible {
+                VStack(spacing: 5) {
+                    ForEach(options, id: \.self) { option in
+                        Button(action: {
+                            selectedOption = option
+                            withAnimation {
+                                isDropdownVisible = false
+                            }
+                        }) {
+                            Text(option)
+                                .frame(width: 100, height: 15, alignment: .center)
+                                .font(.system(size: 12))
+                        }
+                        .foregroundColor(.black)
+                    }
+                }
+                .transition(.opacity.combined(with: .move(edge: .top)))
+            }
+        }
+        .padding()
+        .background(
+            RoundedRectangle(cornerRadius: 5)
+                .stroke(Color.black, lineWidth: 1)
+        )
+        .padding()
     }
 }
-
 
 struct SCViewSelectedDate_Previews: PreviewProvider {
     static var previews: some View {
