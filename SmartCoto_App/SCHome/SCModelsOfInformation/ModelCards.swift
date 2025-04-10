@@ -7,35 +7,66 @@
 
 import SwiftUI
 
-struct ModelCards: View {
+struct ModelAcces: View {
+    @ObservedObject var access1 = Access1()
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 1) {
-            Text("Total de accesos")
-                .padding(.top, 30)
+        VStack(alignment: .leading, spacing: -20) {
+            Text(access1.title)
+                .padding()
                 .frame(width: 200, height: 50, alignment: .leading)
                 .font(.system(size: 20, weight: .bold))
-            Text("16")
+            Text(access1.quantity)
+                .padding()
                 .font(.system(size: 40, weight: .bold))
-                .padding(.top)
-            HStack {
-                Text("+10%")
-                .frame(width: 50, height: 60, alignment: .center)
-                Text("de la semana pasada")
-                    .frame(width: 160, height: 10, alignment: .center)
+            HStack(alignment: .center, spacing: -20) {
+                Text(access1.porcent)
+                    .padding()
+                Text(access1.date)
+                    .padding()
+                Spacer()
                 Image(systemName: "square.and.arrow.up")
-                    .frame(width: 70, height: 50, alignment: .trailing)
+                    .padding()
             }
         }
-        .padding(.horizontal, 20)
+        .frame(width: 330, height: 160, alignment: .center)
         .overlay(RoundedRectangle(cornerRadius: 15)
         .stroke(Color.gray, lineWidth: 2))
     }
 }
 
+struct ModelPackages: View {
+    @ObservedObject var access1 = Access1()
     
-struct SModelCards_Previews: PreviewProvider {
-    static var previews: some View {
-        ModelCards()
+    var body: some View {
+        VStack(alignment: .leading, spacing: -20) {
+            Text(access1.title)
+                .padding()
+                .frame(width: 200, height: 50, alignment: .leading)
+                .font(.system(size: 20, weight: .bold))
+            Text(access1.quantity)
+                .padding()
+                .font(.system(size: 40, weight: .bold))
+            HStack(alignment: .center, spacing: -20) {
+                Text(access1.porcent)
+                    .padding()
+                Text(access1.date)
+                    .padding()
+                Spacer()
+                Image(systemName: "square.and.arrow.up")
+                    .padding()
+            }
+        }
+        .frame(width: 330, height: 160, alignment: .center)
+        .overlay(RoundedRectangle(cornerRadius: 15)
+        .stroke(Color.gray, lineWidth: 2))
     }
 }
+
+struct SModelCards_Previews: PreviewProvider {
+    static var previews: some View {
+        ModelAcces()
+    }
+}
+
+
