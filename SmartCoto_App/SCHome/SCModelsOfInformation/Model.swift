@@ -17,10 +17,10 @@ struct Model {
 }
 
 struct Today {
-    var access: Model = Model(title: "Total de accesos", quantity: 16, porcent: "+10%", date: "de hoy")
-    var reception: Model = Model(title: "Paquetes en recepción", quantity: 32, porcent: "-5%", date: "de hoy")
-    var guest: Model = Model(title: "Invitados", quantity: 4, porcent: "+32%", date: "de hoy")
-    var events: Model = Model(title: "Eventos", quantity: 3, porcent: "-3%", date: "de hoy")
+    @State var access: Model = Model(title: "Total de accesos", quantity: 16, porcent: "+10%", date: "de hoy")
+    @State var reception: Model = Model(title: "Paquetes en recepción", quantity: 32, porcent: "-5%", date: "de hoy")
+    @State var guest: Model = Model(title: "Invitados", quantity: 4, porcent: "+32%", date: "de hoy")
+    @State var events: Model = Model(title: "Eventos", quantity: 3, porcent: "-3%", date: "de hoy")
 }
 
 struct Yesterday {

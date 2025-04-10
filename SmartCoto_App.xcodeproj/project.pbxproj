@@ -25,6 +25,7 @@
 		554972B42D9C62F30080E062 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554972B32D9C62F30080E062 /* Model.swift */; };
 		554972B62D9DAF3B0080E062 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 554972B52D9DAF3B0080E062 /* GoogleService-Info.plist */; };
 		554972B82D9E33260080E062 /* SCLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554972B72D9E33260080E062 /* SCLoginView.swift */; };
+		55692DB32DA77FC700EC3241 /* ModelCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55692DB22DA77FC700EC3241 /* ModelCombine.swift */; };
 		55881B622DA6244D008E4BD8 /* ModelCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55881B612DA6244D008E4BD8 /* ModelCards.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		554972B32D9C62F30080E062 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		554972B52D9DAF3B0080E062 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		554972B72D9E33260080E062 /* SCLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCLoginView.swift; sourceTree = "<group>"; };
+		55692DB22DA77FC700EC3241 /* ModelCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCombine.swift; sourceTree = "<group>"; };
 		55881B612DA6244D008E4BD8 /* ModelCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +134,7 @@
 		554972B02D9C62A80080E062 /* SCModelsOfInformation */ = {
 			isa = PBXGroup;
 			children = (
+				55692DB22DA77FC700EC3241 /* ModelCombine.swift */,
 				554972B32D9C62F30080E062 /* Model.swift */,
 				55881B612DA6244D008E4BD8 /* ModelCards.swift */,
 			);
@@ -221,6 +224,7 @@
 				554972A52D9C624E0080E062 /* SCViewMetrics.swift in Sources */,
 				554972AF2D9C62840080E062 /* SCViewTransactions.swift in Sources */,
 				554972842D9C5E0C0080E062 /* SceneDelegate.swift in Sources */,
+				55692DB32DA77FC700EC3241 /* ModelCombine.swift in Sources */,
 				554972A92D9C62620080E062 /* SCViewUsersInfo.swift in Sources */,
 				5549729F2D9C622B0080E062 /* SCViewSelectedDate.swift in Sources */,
 				554972AD2D9C62760080E062 /* SCViewTransactionsInfo.swift in Sources */,
