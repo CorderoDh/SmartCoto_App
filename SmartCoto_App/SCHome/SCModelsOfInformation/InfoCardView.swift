@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct StructCardModel: View {
+struct InfoCardView: View {
     @ObservedObject var model: InfoCardModel
     
     var body: some View {
         VStack(alignment: .leading, spacing: -20) {
             Text(model.title)
                 .padding()
-                .frame(width: 200, height: 50, alignment: .leading)
+                .frame(width: .infinity, height: 50, alignment: .leading)
                 .font(.system(size: 20, weight: .bold))
             Text(model.quantity)
                 .padding()
@@ -37,7 +37,12 @@ struct StructCardModel: View {
 
 struct StructCardModel_Preview: PreviewProvider {
     static var previews: some View {
-        StructCardModel()
+        VStack {
+                    InfoCardView(model: Access().model)
+                    InfoCardView(model: Packages().model)
+                    InfoCardView(model: Guest().model)
+                    InfoCardView(model: Events().model)
+        }
     }
 }
 

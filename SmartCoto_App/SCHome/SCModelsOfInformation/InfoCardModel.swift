@@ -24,30 +24,18 @@ class InfoCardModel: ObservableObject {
     }
 }
 
-class Access: ObservedObject {
-    var title = "Total de acceesos"
-    var quantity = "16"
-    var porcent = "+10%"
-    var date = "del dia de hoy"
+struct Access {
+    let model = InfoCardModel(title: "Total de accesos", quantity: "16", porcent: "+10%", date: "del día de hoy")
 }
 
-class Packages: ObservableObject {
-    var title = "Paquetes en recepción"
-    var quantity = "31"
-    var porcent = "-5%"
-    var date = "del dia de hoy"
+struct Packages {
+    let model = InfoCardModel(title: "Paquetes en recepción", quantity: "31", porcent: "-5%", date: "del día de hoy")
 }
 
-class Guest: ObservableObject {
-    var title = "Invitados"
-    var quantity = "4"
-    var porcent = "+32%"
-    var date = "del dia de hoy"
+struct Guest {
+    let model = InfoCardModel(title: "Invitados", quantity: "4", porcent: "+32%", date: "del día de hoy")
 }
 
-class Events: ObservableObject {
-    var title = "Total de accesos"
-    var quantity = "16"
-    var porcent = "+10%"
-    var date = "del dia de hoy"
+struct Events {
+    let model = InfoCardModel(title: "Eventos", quantity: "3", porcent: "+18%", date: "del día de hoy")
 }

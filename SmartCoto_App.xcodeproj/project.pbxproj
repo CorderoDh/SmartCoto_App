@@ -25,7 +25,7 @@
 		554972B42D9C62F30080E062 /* InfoCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554972B32D9C62F30080E062 /* InfoCardModel.swift */; };
 		554972B62D9DAF3B0080E062 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 554972B52D9DAF3B0080E062 /* GoogleService-Info.plist */; };
 		554972B82D9E33260080E062 /* SCLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554972B72D9E33260080E062 /* SCLoginView.swift */; };
-		554B2EEF2DA86C0900A1F402 /* StructCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554B2EEE2DA86C0900A1F402 /* StructCardModel.swift */; };
+		554B2EEF2DA86C0900A1F402 /* InfoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554B2EEE2DA86C0900A1F402 /* InfoCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +49,7 @@
 		554972B32D9C62F30080E062 /* InfoCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCardModel.swift; sourceTree = "<group>"; };
 		554972B52D9DAF3B0080E062 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		554972B72D9E33260080E062 /* SCLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCLoginView.swift; sourceTree = "<group>"; };
-		554B2EEE2DA86C0900A1F402 /* StructCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructCardModel.swift; sourceTree = "<group>"; };
+		554B2EEE2DA86C0900A1F402 /* InfoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				554972B32D9C62F30080E062 /* InfoCardModel.swift */,
-				554B2EEE2DA86C0900A1F402 /* StructCardModel.swift */,
+				554B2EEE2DA86C0900A1F402 /* InfoCardView.swift */,
 			);
 			path = SCModelsOfInformation;
 			sourceTree = "<group>";
@@ -221,7 +221,7 @@
 				554972AF2D9C62840080E062 /* SCViewTransactions.swift in Sources */,
 				554972842D9C5E0C0080E062 /* SceneDelegate.swift in Sources */,
 				554972A92D9C62620080E062 /* SCViewUsersInfo.swift in Sources */,
-				554B2EEF2DA86C0900A1F402 /* StructCardModel.swift in Sources */,
+				554B2EEF2DA86C0900A1F402 /* InfoCardView.swift in Sources */,
 				5549729F2D9C622B0080E062 /* SCViewSelectedDate.swift in Sources */,
 				554972AD2D9C62760080E062 /* SCViewTransactionsInfo.swift in Sources */,
 				554972B42D9C62F30080E062 /* InfoCardModel.swift in Sources */,
