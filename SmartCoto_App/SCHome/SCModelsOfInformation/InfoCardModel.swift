@@ -24,41 +24,30 @@ class InfoCardModel: ObservableObject {
     }
 }
 
+class Access: ObservedObject {
+    var title = "Total de acceesos"
+    var quantity = "16"
+    var porcent = "+10%"
+    var date = "del dia de hoy"
+}
 
+class Packages: ObservableObject {
+    var title = "Paquetes en recepción"
+    var quantity = "31"
+    var porcent = "-5%"
+    var date = "del dia de hoy"
+}
 
+class Guest: ObservableObject {
+    var title = "Invitados"
+    var quantity = "4"
+    var porcent = "+32%"
+    var date = "del dia de hoy"
+}
 
-
-//struct Today {
-//    @State var access: Model = Model(title: "Total de accesos", quantity: 16, porcent: "+10%", date: "de hoy")
-//    @State var reception: Model = Model(title: "Paquetes en recepción", quantity: 32, porcent: "-5%", date: "de hoy")
-//    @State var guest: Model = Model(title: "Invitados", quantity: 4, porcent: "+32%", date: "de hoy")
-//    @State var events: Model = Model(title: "Eventos", quantity: 3, porcent: "-3%", date: "de hoy")
-//}
-
-//struct Yesterday {
-//    var access: Model = Model(title: "Total de accesos", quantity: 16, porcent: "+10%", date: "de ayer")
-//    var reception: Model = Model(title: "Paquetes en recepción", quantity: 32, porcent: "-5%", date: "de ayer")
-//    var guest: Model = Model(title: "Invitados", quantity: 4, porcent: "+32%", date: "de ayer")
-//    var events: Model = Model(title: "Eventos", quantity: 3, porcent: "-3%", date: "de ayer")
-//}
-//
-//struct ThisWeek {
-//    var access: Model = Model(title: "Total de accesos", quantity: 16, porcent: "+10%", date: "de la semana")
-//    var reception: Model = Model(title: "Paquetes en recepción", quantity: 32, porcent: "-5%", date: "de la semana")
-//    var guest: Model = Model(title: "Invitados", quantity: 4, porcent: "+32%", date: "de la semana")
-//    var events: Model = Model(title: "Eventos", quantity: 3, porcent: "-3%", date: "de la semana")
-//}
-//
-//struct ThisMont {
-//    var access: Model = Model(title: "Total de accesos", quantity: 16, porcent: "+10%", date: "del mes")
-//    var reception: Model = Model(title: "Paquetes en recepción", quantity: 32, porcent: "-5%", date: "del mes")
-//    var guest: Model = Model(title: "Invitados", quantity: 4, porcent: "+32%", date: "del mes")
-//    var events: Model = Model(title: "Eventos", quantity: 3, porcent: "-3%", date: "del mes")
-//}
-//
-//struct ThisYear {
-//    var access: Model = Model(title: "Total de accesos", quantity: 16, porcent: "+10%", date: "del año")
-//    var reception: Model = Model(title: "Paquetes en recepción", quantity: 32, porcent: "-5%", date: "del año")
-//    var guest: Model = Model(title: "Invitados", quantity: 4, porcent: "+32%", date: "del año")
-//    var events: Model = Model(title: "Eventos", quantity: 3, porcent: "-3%", date: "del año")
-//}
+class Events: ObservableObject {
+    var title = "Total de accesos"
+    var quantity = "16"
+    var porcent = "+10%"
+    var date = "del dia de hoy"
+}

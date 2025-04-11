@@ -1,28 +1,28 @@
 //
-//  ModelCards.swift
+//  ModelSummary.swift
 //  SmartCoto_App
 //
-//  Created by Carlos Miguel on 08/04/25.
+//  Created by Carlos Miguel on 10/04/25.
 //
 
 import SwiftUI
 
-struct ModelAcces: View {
-    @ObservedObject var access1 = Access1()
+struct StructCardModel: View {
+    @ObservedObject var model: InfoCardModel
     
     var body: some View {
         VStack(alignment: .leading, spacing: -20) {
-            Text(access1.title)
+            Text(model.title)
                 .padding()
                 .frame(width: 200, height: 50, alignment: .leading)
                 .font(.system(size: 20, weight: .bold))
-            Text(access1.quantity)
+            Text(model.quantity)
                 .padding()
                 .font(.system(size: 40, weight: .bold))
             HStack(alignment: .center, spacing: -20) {
-                Text(access1.porcent)
+                Text(model.porcent)
                     .padding()
-                Text(access1.date)
+                Text(model.date)
                     .padding()
                 Spacer()
                 Image(systemName: "square.and.arrow.up")
@@ -31,14 +31,19 @@ struct ModelAcces: View {
         }
         .frame(width: 330, height: 160, alignment: .center)
         .overlay(RoundedRectangle(cornerRadius: 15)
-        .stroke(Color.gray, lineWidth: 2))
+                    .stroke(Color.gray, lineWidth: 2))
     }
 }
 
-struct SModelCards_Previews: PreviewProvider {
+struct StructCardModel_Preview: PreviewProvider {
     static var previews: some View {
-        ModelAcces()
+        StructCardModel()
     }
 }
+
+
+
+
+
 
 
