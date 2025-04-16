@@ -25,9 +25,15 @@ struct SCHome: View {
                     Text("Resumen")
                         .font(.system(size: 15))
                         .foregroundColor(.gray)
-                        .frame(width: 150, height: 50, alignment: .leading)
+                        .offset(x: -80, y: 1)
                     
+                    HStack {
                         SCViewSelectedDate()
+                    }
+                    .overlay(RoundedRectangle(cornerRadius: 10)
+                    .stroke(Color.gray, lineWidth: 2))
+                    .frame(width: 100, height: 40, alignment: .center)
+                    .offset(x: 80, y: 1)
                 }
                 //Usar una list con un foreach
                 VStack {
